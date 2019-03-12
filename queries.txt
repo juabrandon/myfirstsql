@@ -1,0 +1,3 @@
+SELECT * FROM `one`.`first` WHERE (CONVERT(`First` USING utf8) LIKE '%%hotmail.com%' OR CONVERT(`Second` USING utf8) LIKE '%%hotmail.com%' OR CONVERT(`Third` USING utf8) LIKE '%%hotmail.com%') ORDER BY `Second` ASC
+SELECT * FROM `second` WHERE `secondThird` < '1999-11-08'
+SELECT * FROM `third` WHERE `State` NOT IN ('Florida') ORDER BY `State` ASC
